@@ -1,6 +1,4 @@
 //JaeHyeon Nam
-//eck of Cards Assignment
-//CS099
 //Spring 2020
 function setup() {
   createCanvas(850, 400);
