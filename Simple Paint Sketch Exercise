@@ -1,6 +1,4 @@
 //JaeHyeon Nam
-//Simple Paint Sketch Exercise
-//CS099
 //Spring 2020
 function setup() {
   createCanvas(600, 600);
