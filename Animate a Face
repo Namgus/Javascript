@@ -1,6 +1,4 @@
 //JaeHyeon Nam
-//Animate a Face Assignment
-//CS099
 //Spring 2020
 var hair = 0;
 var mouseY = 0;
