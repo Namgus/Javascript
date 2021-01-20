@@ -1,6 +1,4 @@
 //JaeHyeon Nam
-//while Loop Horizontally Exercise
-//CS099
 //Spring 2020
 function setup() {
   createCanvas(600, 400);
