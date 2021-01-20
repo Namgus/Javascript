@@ -1,6 +1,4 @@
 //JaeHyeon Nam
-//Display Today's Date Exercise
-//CS099
 //Spring 2020
 function setup() {
   createCanvas(350, 350);
