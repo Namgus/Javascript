@@ -1,6 +1,4 @@
 //JaeHyeon Nam
-//Match the Mouse Exercise
-//CS099
 //Spring 2020
 function setup() {
   createCanvas(500,500);
