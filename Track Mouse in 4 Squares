@@ -1,6 +1,4 @@
 //JaeHyeon Nam
-//Track Mouse in 4 Squares Exercise
-//CS099
 //Spring 2020
 
 function setup() {
