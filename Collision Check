@@ -1,0 +1,74 @@
+let player1=
+{
+  posx:200,
+  posy:200,
+  diameter :30,
+  xspeed :10,
+  yspeed :10,
+  
+}
+
+
+let player2=
+{
+ posx :300,
+ posy :300,
+ diameter :30,
+ xspeed :5,
+ yspeed :5
+ 
+   
+}
+function setup() {
+  
+  
+  createCanvas(800, 400);
+}
+
+function draw() {
+  background(220);
+  bounce(player1);
+  bounce(player2);
+  display(player1);
+  display(player2);
+  move(player1);
+  move(player2);
+  CheckColison(player1,player2);
+  
+ 
+}
+
+function move(object)
+{
+  object.posx+=object.xspeed;
+  object.posy+=object.yspeed;
+}
+function display(object)
+{
+  circle(object.posx,object.posy,object.diameter);
+}
+
+function bounce(object)
+{
+  if(object.posx <0 || object.posx>width)
+  {
+    object.xspeed=object.xspeed*-1;
+  }
+  if(object.posy<0 || object.posy>height)
+  {
+   object.yspeed=object.yspeed*-1; 
+  }
+}
+
+function CheckColison(object1,object2)
+{
+ if( dist(object1.posx, object1.posy,object2.posx,object2.posy)<30)
+ {
+  fill(0);
+  
+ }
+ else
+ {
+  fill(255);
+ }
+}
