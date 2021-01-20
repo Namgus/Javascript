@@ -1,7 +1,5 @@
 /*
 JaeHyeon Nam
-Draw A Fictional Character Exercise
-CS099
 Spring 2020
 */
 function setup() {
