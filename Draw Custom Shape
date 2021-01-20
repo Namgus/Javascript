@@ -1,6 +1,4 @@
 //JaeHyeon Nam
-//Draw Custom Shape Exercise
-//CS099
 //Spring 2020
 function setup() {
   createCanvas(500, 400);
