@@ -1,6 +1,4 @@
 //JaeHyeon Nam
-//for Loop Vertically Exercise
-//CS099
 //Spring 2020
 function setup() {
   createCanvas(400, 400);
